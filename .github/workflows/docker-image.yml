@@ -35,6 +35,9 @@ jobs:
         with:
           push: true
           tags: darshu12/Python_actions:latest
+          outputs:  # Ensure the output is set here
+            # You might want to set the actual output options depending on your use case
+            digest: true  # Assuming you want the digest output
 
       # Step 5 (Optional): Output the Docker image digest (to confirm the build)
       - name: Image digest
