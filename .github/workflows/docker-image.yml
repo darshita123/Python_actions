@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: your-dockerhub-username/docker-python-app:latest
+          tags: darshu12/Python_actions:latest
 
       # Step 5 (Optional): Output the Docker image digest (to confirm the build)
       - name: Image digest
