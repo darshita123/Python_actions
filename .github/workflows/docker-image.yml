@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: darshu12/Python_actions:latest
+          tags: darshu12/python_actions:latest
 
       # Step 5 (Optional): Output the Docker image digest (to confirm the build)
       - name: Image digest
